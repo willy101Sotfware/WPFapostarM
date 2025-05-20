@@ -1,0 +1,66 @@
+﻿<Application x:Class="WPFapostarM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFapostarM"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <!-- Backgrounds -->
+                    <BitmapImage x:Key="BgApostar" UriSource="/Images/Backgrounds/BgApostar.png" />
+                    <BitmapImage x:Key="BgAsiva" UriSource="/Images/Backgrounds/BgAsiva.png" />
+                    <BitmapImage x:Key="BgCalifica" UriSource="/Images/Backgrounds/BgCalifica.png" />
+                    <BitmapImage x:Key="BgCalificacion" UriSource="/Images/Backgrounds/BgCalificacion.png" />
+                    <BitmapImage x:Key="BgData" UriSource="/Images/Backgrounds/BgData.png" />
+                    <BitmapImage x:Key="BgDia" UriSource="/Images/Backgrounds/BgDia.png" />
+                    <BitmapImage x:Key="BgDigitaDinero" UriSource="/Images/Backgrounds/BgDigitaDinero.png" />
+                    <BitmapImage x:Key="BgDigitaReferencia" UriSource="/Images/Backgrounds/BgDigitaReferencia.png" />
+                    <BitmapImage x:Key="BgGray" UriSource="/Images/Backgrounds/BgGray.png" />
+                    <BitmapImage x:Key="BgPay" UriSource="/Images/Backgrounds/BgPay.png" />
+                    <BitmapImage x:Key="BgReferencia" UriSource="/Images/Backgrounds/BgReferencia.png" />
+                    <BitmapImage x:Key="BgSmall" UriSource="/Images/Backgrounds/BgSmall.png" />
+                    <BitmapImage x:Key="InputData" UriSource="/Images/Backgrounds/InputData.png" />
+                    <BitmapImage x:Key="BgRed" UriSource="/Images/Backgrounds/bgRed.png" />
+                    <BitmapImage x:Key="BgSelectDia" UriSource="/Images/Backgrounds/bgSelectDia.png" />
+                    <BitmapImage x:Key="InputInformacion" UriSource="/Images/Backgrounds/input_informacion.png" />
+
+                    <!-- Buttons (ejemplos representativos) -->
+                    <BitmapImage x:Key="BtnBlock" UriSource="/Images/Buttons/Block.png" />
+                    <BitmapImage x:Key="BtnPaquetes" UriSource="/Images/Buttons/BotonPaquetes.png" />
+                    <BitmapImage x:Key="BtnAguas" UriSource="/Images/Buttons/BtnAguas.png" />
+                    <BitmapImage x:Key="BtnCancelar" UriSource="/Images/Buttons/BtnCancelar.png" />
+                    <BitmapImage x:Key="BtnContinuar" UriSource="/Images/Buttons/BtnContinuar.png" />
+                    <BitmapImage x:Key="BtnAtras" UriSource="/Images/Buttons/btnAtras.png" />
+
+                    <!-- Gif -->
+                    <BitmapImage x:Key="GifScan" UriSource="/Images/Gif/GifScan.gif" />
+                    <BitmapImage x:Key="GifLoad" UriSource="/Images/Gif/Load.gif" />
+
+                    <!-- Keyboard (ejemplos representativos) -->
+                    <BitmapImage x:Key="Key0" UriSource="/Images/Keyboard/0.png" />
+                    <BitmapImage x:Key="Key1" UriSource="/Images/Keyboard/1.png" />
+                    <BitmapImage x:Key="Key2" UriSource="/Images/Keyboard/2.png" />
+                    <BitmapImage x:Key="Key3" UriSource="/Images/Keyboard/3.png" />
+                    <BitmapImage x:Key="Key4" UriSource="/Images/Keyboard/4.png" />
+                    <BitmapImage x:Key="Key5" UriSource="/Images/Keyboard/5.png" />
+                    <BitmapImage x:Key="Key6" UriSource="/Images/Keyboard/6.png" />
+                    <BitmapImage x:Key="Key7" UriSource="/Images/Keyboard/7.png" />
+                    <BitmapImage x:Key="Key8" UriSource="/Images/Keyboard/8.png" />
+                    <BitmapImage x:Key="Key9" UriSource="/Images/Keyboard/9.png" />
+                    <BitmapImage x:Key="KeyBackspace" UriSource="/Images/Keyboard/BACKSPACE.png" />
+                    <BitmapImage x:Key="KeyDelete" UriSource="/Images/Keyboard/DELETE.png" />
+                    <BitmapImage x:Key="KeyOK" UriSource="/Images/Keyboard/OK.png" />
+
+                    <!-- Others (ejemplos representativos) -->
+                    <BitmapImage x:Key="ApostarA" UriSource="/Images/Others/ApostarA.png" />
+                    <BitmapImage x:Key="BackPack" UriSource="/Images/Others/BackPack.png" />
+                    <BitmapImage x:Key="Colilla" UriSource="/Images/Others/COLILLA.png" />
+                    <BitmapImage x:Key="IcoApostar" UriSource="/Images/Others/IcoApostar.png" />
+                    <BitmapImage x:Key="IcoCalifica" UriSource="/Images/Others/IcoCalifica.png" />
+                    <BitmapImage x:Key="IcoPay" UriSource="/Images/Others/IcoPay.png" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
